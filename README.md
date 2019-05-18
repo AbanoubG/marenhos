@@ -1,4 +1,4 @@
-# arabic_reader
+# Marenhos
 
 Simple application for transliterated hymns 
 

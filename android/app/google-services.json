@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "882406439160",
+    "firebase_url": "https://ar-app-flutter.firebaseio.com",
+    "project_id": "ar-app-flutter",
+    "storage_bucket": "ar-app-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882406439160:android:843e66d61a78148c",
+        "android_client_info": {
+          "package_name": "org.copticfaith.arabic_reader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882406439160-b67ltsekq25lgv3okq6gfnlmffaa6u90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtmwLYO0JIM6p75bOXXsdGMuToognMUQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882406439160-b67ltsekq25lgv3okq6gfnlmffaa6u90.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "882406439160-pfett028q0lr5tlcui0u0ktnvut7ore2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.copticfaith.arabicReader"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
