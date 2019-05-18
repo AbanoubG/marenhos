@@ -1,6 +1,6 @@
 # Marenhos
 
-Simple application for transliterated hymns 
+Simple application for Coptic Orthodox Hymns hymns 
 
 ## Getting Started
 
