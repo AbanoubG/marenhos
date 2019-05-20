@@ -11,6 +11,7 @@ class DetailPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(hymn.title),
+        backgroundColor: new Color(0xFF333333),
       ), //appbar
       body: Padding(
         padding: EdgeInsets.all(10.0),

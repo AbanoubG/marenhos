@@ -21,6 +21,7 @@ class _HymnScreenState extends State<HymnScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: new Color(0xFF333333),
         title: TextField(
           controller: controller,
           onChanged: (query) {

@@ -13,6 +13,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: new Color(0xFF333333),
           title: Text('Ⲙⲁⲣⲉⲛϩⲱⲥ', style: TextStyle(fontFamily: 'Coptic'),),
         ),
         body: StreamBuilder<QuerySnapshot>(
@@ -43,6 +44,7 @@ class _CategoryScreenState extends State<CategoryScreen> {
                           title: data["title"],
                           english: data["english"],
                           ar: data["ar-e"],
+                          coptic:data["cop"]
                         );
                       }).toList();
                       Navigator.of(context).push(

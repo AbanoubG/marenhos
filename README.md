@@ -1,7 +1,6 @@
-# Marenhos
+# Ⲙⲁⲣⲉⲛϩⲱⲥ
 
-Simple application for Coptic Orthodox Hymns hymns 
+Simple application for Coptic Orthodox Hymns  
 
-## Getting Started
 
 
