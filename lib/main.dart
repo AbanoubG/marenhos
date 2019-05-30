@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-import 'package:marenhos/screens/Categories/index.dart';
-import 'package:flutter/material.dart';
-
-void main() => runApp(
-      MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: CategoryScreen(),
-      ),
-    );
-=======
 import 'package:arabic_reader/screens/Categories/index.dart';
 import 'package:arabic_reader/screens/Favorites/index.dart';
 import 'package:arabic_reader/utils/pref_utils.dart';
@@ -52,4 +41,3 @@ void main() async {
     ),
   );
 }
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b

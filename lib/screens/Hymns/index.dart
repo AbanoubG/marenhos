@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-import 'package:marenhos/models/hymn.dart';
-import 'package:marenhos/screens/Details/index.dart';
-import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-=======
 import 'package:arabic_reader/models/app_state.dart';
 import 'package:arabic_reader/models/hymn.dart';
 import 'package:arabic_reader/screens/Details/index.dart';
@@ -11,7 +5,6 @@ import 'package:arabic_reader/utils/pref_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:provider/provider.dart';
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 
 class HymnScreen extends StatefulWidget {
   final List<Hymn> hymns;
@@ -28,12 +21,6 @@ class _HymnScreenState extends State<HymnScreen> {
   final controller = TextEditingController();
 
   @override
-<<<<<<< HEAD
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: new Color(0xFF333333),
-=======
   void dispose() {
     super.dispose();
   }
@@ -47,7 +34,6 @@ class _HymnScreenState extends State<HymnScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: new Color(0xFF800000),
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
         title: TextField(
           controller: controller,
           onChanged: (query) {
@@ -55,13 +41,9 @@ class _HymnScreenState extends State<HymnScreen> {
               searchQuery = query;
             });
           },
-<<<<<<< HEAD
-          style: TextStyle(color: Colors.white, fontSize: 20),
-=======
           style: TextStyle(
             color: Colors.white,
           ),
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
           decoration: InputDecoration(
             border: InputBorder.none,
             hintText: "Search",
@@ -85,8 +67,6 @@ class _HymnScreenState extends State<HymnScreen> {
                   ),
           ),
         ),
-<<<<<<< HEAD
-=======
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.settings),
@@ -101,7 +81,6 @@ class _HymnScreenState extends State<HymnScreen> {
             },
           ),
         ],
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
       ),
       body: ListView(
         children: widget.hymns
@@ -109,10 +88,6 @@ class _HymnScreenState extends State<HymnScreen> {
                 hymn.title.toLowerCase().contains(searchQuery.toLowerCase()))
             .map((hymn) {
           return ListTile(
-<<<<<<< HEAD
-            title: Text(hymn.title),
-            //subtitle: Text(hymn.tag),
-=======
             title: Text(
               hymn.title,
               style: theme.textTheme.title,
@@ -139,7 +114,6 @@ class _HymnScreenState extends State<HymnScreen> {
                 );
               },
             ),
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(

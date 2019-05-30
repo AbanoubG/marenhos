@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-import 'package:marenhos/models/hymn.dart';
-import 'package:marenhos/screens/Hymns/index.dart';
-import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-
-class CategoryScreen extends StatefulWidget {
-  @override
-  _CategoryScreenState createState() => _CategoryScreenState();
-}
-
-class _CategoryScreenState extends State<CategoryScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          backgroundColor: new Color(0xFF333333),
-          title: Text('Ⲙⲁⲣⲉⲛϩⲱⲥ', style: TextStyle(fontFamily: 'Coptic'),),
-=======
 import 'package:arabic_reader/models/hymn.dart';
 import 'package:arabic_reader/screens/Hymns/index.dart';
 import 'package:arabic_reader/utils/pref_utils.dart';
@@ -41,7 +22,6 @@ class CategoryScreen extends StatelessWidget {
               },
             ),
           ],
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
         ),
         body: StreamBuilder<QuerySnapshot>(
             stream: Firestore.instance.collection("categories").snapshots(),
@@ -58,14 +38,10 @@ class CategoryScreen extends StatelessWidget {
                   if (category == null)
                     return Center(child: CircularProgressIndicator());
                   return ListTile(
-<<<<<<< HEAD
-                    title: Text("${category["title"]}"),
-=======
                     title: Text(
                       "${category["title"]}",
                       style: theme.textTheme.title,
                     ),
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
                     //subtitle: Text("${category["tag"]}"),
                     onTap: () async {
                       final hymnDocs = await categoriesList[index]
@@ -78,11 +54,7 @@ class CategoryScreen extends StatelessWidget {
                           title: data["title"],
                           english: data["english"],
                           ar: data["ar-e"],
-<<<<<<< HEAD
-                          coptic:data["cop"]
-=======
                           coptic: data["coptic"],
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
                         );
                       }).toList();
                       Navigator.of(context).push(
