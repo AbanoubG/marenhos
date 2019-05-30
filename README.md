@@ -12,11 +12,5 @@ Content and features found in Ⲙⲁⲣⲉⲛϩⲱⲥ include
 
 Items are periodically added without the need to update the application.  
 
-# Screenshots
-<img src="https://github.com/AbanoubG/marenhos/blob/master/screenshots/1.png" height="600em" />
-
-<img src="https://github.com/AbanoubG/marenhos/blob/master/screenshots/2.png" height="600em" />
-
-<img src="https://github.com/AbanoubG/marenhos/blob/master/screenshots/3.png" height="600em" />
-
-<img src="https://github.com/AbanoubG/marenhos/blob/master/screenshots/4.png" height="600em" />
+# Demo
+<img src="https://github.com/AbanoubG/marenhos/blob/master/screenshots/demo.gif" height="200em" />
