@@ -13,4 +13,4 @@ Content and features found in Ⲙⲁⲣⲉⲛϩⲱⲥ include
 Items are periodically added without the need to update the application.  
 
 # Demo
-<img src="https://github.com/AbanoubG/marenhos/blob/master/demo/demo.gif" height="200em" />
+<img src="https://github.com/AbanoubG/marenhos/blob/master/demo/demo.gif" height="400em" />
