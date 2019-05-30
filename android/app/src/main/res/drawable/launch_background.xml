@@ -7,6 +7,10 @@
      <item>
         <bitmap
             android:gravity="center"
+<<<<<<< HEAD
             android:src="@drawable/foreground" />
+=======
+            android:src="@drawable/cross" />
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
     </item> 
 </layer-list>

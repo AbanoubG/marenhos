@@ -285,6 +285,10 @@
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+<<<<<<< HEAD
+=======
+				"${BUILT_PRODUCTS_DIR}/shared_preferences/shared_preferences.framework",
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -298,6 +302,10 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+<<<<<<< HEAD
+=======
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/shared_preferences.framework",
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

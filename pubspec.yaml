@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 name: marenhos
 description: Simple application for Coptic Orthodox Hymns 
+=======
+name: arabic_reader
+description: Simple application for transliterated hymns 
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 version: 1.0.0+1
 
 environment:
@@ -9,6 +14,11 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   cloud_firestore: ^0.11.0+2
+<<<<<<< HEAD
+=======
+  provider: ^2.0.1
+  shared_preferences: ^0.5.2
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 
   flutter:
     sdk: flutter
@@ -16,6 +26,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+   
 
 flutter:
 
@@ -25,7 +36,11 @@ flutter:
     - assets/hymns.json
 
   fonts:
+<<<<<<< HEAD
     - family: Coptic
+=======
+    - family: ArialCoptic
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
       fonts:
         - asset: fonts/ArialCoptic.ttf
 

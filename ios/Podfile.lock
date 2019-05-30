@@ -100,11 +100,20 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.7.0)
+<<<<<<< HEAD
+=======
+  - shared_preferences (0.0.1):
+    - Flutter
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 
 DEPENDENCIES:
   - cloud_firestore (from `.symlinks/plugins/cloud_firestore/ios`)
   - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
   - Flutter (from `.symlinks/flutter/ios`)
+<<<<<<< HEAD
+=======
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -130,6 +139,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/firebase_core/ios"
   Flutter:
     :path: ".symlinks/flutter/ios"
+<<<<<<< HEAD
+=======
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 
 SPEC CHECKSUMS:
   BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
@@ -149,6 +163,10 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+<<<<<<< HEAD
+=======
+  shared_preferences: 5a1d487c427ee18fcd3ea1f2a131569481834b53
+>>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 
 PODFILE CHECKSUM: ebd43b443038e611b86ede96e613bd6033c49497
 
