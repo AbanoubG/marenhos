@@ -1,7 +1,3 @@
 <resources>
-<<<<<<< HEAD
-    <color name="splashscreen">#333333</color>
-=======
     <color name="splashscreen">#800000</color>
->>>>>>> f1a885a7393254017dc194d35f106f2c1d5b868b
 </resources>
