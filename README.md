@@ -1,4 +1,4 @@
-# Ⲙⲁⲣⲉⲛϩⲱⲥ
+# Ⲙⲁⲣⲉⲛϩⲱⲥ 
 
 Ⲙⲁⲣⲉⲛϩⲱⲥ is a simple application that focuses on the beauty of the Liturgical life of the Coptic Orthodox Church through its hymns.
 
