@@ -92,7 +92,10 @@ class _HymnScreenState extends State<HymnScreen> {
               hymn.title,
               style: theme.textTheme.title,
             ),
-            //subtitle: Text(hymn.tag),
+            subtitle: Text(
+              hymn.tag,
+              style: TextStyle(fontFamily: 'ArialCoptic')
+              ),
             trailing: Consumer<AppState>(
               builder: (_, state, __) {
                 final isFav =
@@ -102,7 +105,7 @@ class _HymnScreenState extends State<HymnScreen> {
                 return IconButton(
                   icon: Icon(
                     isFav ? Icons.bookmark : Icons.bookmark_border,
-                    color: Colors.black,
+                    color: Colors.redAccent,
                   ),
                   onPressed: () {
                     if (isFav)
