@@ -52,6 +52,7 @@ class CategoryScreen extends StatelessWidget {
                         final data = snap.data;
                         return Hymn(
                           title: data["title"],
+                          tag: data["tag"],
                           english: data["english"],
                           ar: data["ar-e"],
                           coptic: data["coptic"],

@@ -43,7 +43,7 @@ class FavoritesScreen extends StatelessWidget {
                   return IconButton(
                     icon: Icon(
                       isFav ? Icons.bookmark : Icons.bookmark_border,
-                      color: Colors.black,
+                      color: Colors.redAccent,
                     ),
                     onPressed: () {
                       if (isFav)

@@ -1,5 +1,5 @@
 name: arabic_reader
-description: Simple application for transliterated hymns 
+description: a simple application that focuses on the beauty of the Liturgical life of the Coptic Orthodox Church through its hymns 
 version: 1.0.0+1
 
 environment:
@@ -23,9 +23,6 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
-
-  assets:
-    - assets/hymns.json
 
   fonts:
     - family: ArialCoptic
